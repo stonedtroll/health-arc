@@ -1,0 +1,80 @@
+{  "health-arc": {
+    "logger": {      "debugMode": {
+        "enabled": "Debug mode enabled",
+        "disabled": "Debug mode disabled",
+        "availableLevels": "Available log levels: {levels}"
+      },
+      "error": {
+        "debugMode": "Error updating debug mode:"
+      },      "logLevel": {
+        "set": "Log level set to: {level}",
+        "adjusted": "Log level adjusted to: {level} due to debug mode change"
+      }
+    },    "settings": {
+      "debugMode": {
+        "name": "Debug Mode",
+        "hint": "Enable verbose logging for debugging purposes. Non-error messages will only appear when this is enabled."
+      },      "logLevel": {
+        "name": "Log Level",
+        "hint": "Controls how detailed the logs are. When debug mode is on, only TRACE and DEBUG levels are available. When debug mode is off, only INFO, WARN, ERROR and NONE levels are available.",
+        "trace": "Trace - Most Verbose",
+        "debug": "Debug",
+        "info": "Info",
+        "warn": "Warning",
+        "error": "Error",
+        "none": "None - No Logging"
+      },
+      "debugLogLevel": {
+        "name": "Debug Log Level",
+        "hint": "Controls how detailed the logs are when debug mode is ON. Only used when debug mode is enabled."
+      },
+      "normalLogLevel": {
+        "name": "Normal Log Level",
+        "hint": "Controls how detailed the logs are when debug mode is OFF. Only used when debug mode is disabled."
+      },
+      "hpHighColour": {
+        "name": "HP Full Colour",
+        "hint": "The colour shown when a token is at full health"
+      },
+      "hpLowColour": {
+        "name": "HP Low Colour",
+        "hint": "The colour shown when a token is at low health" 
+      },
+      "tempHpColour": {
+        "name": "Temporary HP Colour",
+        "hint": "The colour shown for temporary hit points"
+      },
+      "backgroundColour": {
+        "name": "Background Arc Colour",
+        "hint": "The colour of the background arc"
+      },
+      "maxPerception": {
+        "name": "Maximum Perception Value",
+        "hint": "The highest perception score that will be considered for uncertainty calculations (Default: 30)"
+      },
+      "minPerception": {
+        "name": "Minimum Perception Value",
+        "hint": "The lowest perception score that will be considered for uncertainty calculations (Default: 1)"
+      },
+      "basePerception": {
+        "name": "Base Perception Value",
+        "hint": "The baseline perception score from which uncertainty is calculated (Default: 10)"
+      },
+      "maxUncertainty": {
+        "name": "Maximum Uncertainty",
+        "hint": "The maximum amount that HP display can vary (Default: 30%)"
+      },      "perceptionScaling": {
+        "name": "Perception Scaling Factor",
+        "hint": "How much each point of perception reduces uncertainty (Default: 2%, higher values = perception matters more)"
+      },
+      "activeAlpha": {
+        "name": "Active Alpha",
+        "hint": "The opacity of the health arc when a token is active or selected (Default: 1.0)"
+      },
+      "inactiveAlpha": {
+        "name": "Inactive Alpha",
+        "hint": "The opacity of the health arc when a token is inactive/not selected (Default: 0.25)"
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{  "health-arc": {
+    "logger": {      "debugMode": {
+        "enabled": "Bonza! Debug mode enabled",
+        "disabled": "No worries! Debug mode disabled",
+        "availableLevels": "Available log levels: {levels}, ya reckon?"
+      },
+      "error": {
+        "debugMode": "Strewth! Error updating debug mode:"
+      },      "logLevel": {
+        "set": "Log level set to: {level}, fair dinkum!",
+        "adjusted": "Crikey! Log level changed to: {level} 'cause debug mode switched"
+      }
+    },    "settings": {
+      "debugMode": {
+        "name": "Debugging Mode",
+        "hint": "Enable verbose logging for debugging purposes. Non-error messages will only show up when this is enabled, mate."
+      },      "logLevel": {
+        "name": "Log Detail Level",
+        "hint": "Controls how chatty the system gets in the console. When debug mode's on, ya only get TRACE and DEBUG. When it's off, ya get INFO, WARN, ERROR and NONE. Fair go!",
+        "trace": "Trace - Flat Out Detailed",
+        "debug": "Debug - Heaps of Info",
+        "info": "Info - Just the Facts",
+        "warn": "Warning - Heads Up",
+        "error": "Error - She's Proper Broken",
+        "none": "None - Zip, Zilch, Nada"
+      },
+      "debugLogLevel": {
+        "name": "Debug Chatter Level",
+        "hint": "Controls how much yakka the system spits out when you're debugging. Only kicks in when debug mode's on, ya reckon?"
+      },
+      "normalLogLevel": {
+        "name": "Everyday Log Level",
+        "hint": "Sets how much info gets logged during normal use. Only matters when debug mode's off, fair dinkum!"
+      },"hpHighColour": {
+        "name": "Full Health Colour",
+        "hint": "The colour shown when a token is fit as a fiddle"
+      },
+      "hpLowColour": {
+        "name": "Low Health Colour",
+        "hint": "The colour shown when a token's health is crook as Rookwood" 
+      },
+      "tempHpColour": {
+        "name": "Temporary HP Colour",
+        "hint": "The colour shown for those bonus hit points that won't last long"
+      },
+      "backgroundColour": {
+        "name": "Background Arc Colour",
+        "hint": "The colour of the background arc, nothing fancy"
+      },
+      "maxPerception": {
+        "name": "Eagle Eye Perception",
+        "hint": "The highest perception score for uncertainty calculations, for those with eyes like a hawk (Default: 30)"
+      },
+      "minPerception": {
+        "name": "Rock Bottom Perception",
+        "hint": "The lowest perception score for uncertainty calculations, for those as blind as a bat (Default: 1)"
+      },
+      "basePerception": {
+        "name": "Standard Perception",
+        "hint": "The ordinary perception score that your average bloke has (Default: 10)"
+      },
+      "maxUncertainty": {
+        "name": "Maximum Confusion",
+        "hint": "How much the HP display can be off by when you're squinting at it (Default: 30%)"
+      },      "perceptionScaling": {
+        "name": "Perception Importance",
+        "hint": "How much each point of perception helps you see things clearly (Default: 2%, higher values = perception is a bigger deal)"
+      },
+      "activeAlpha": {
+        "name": "Selected Visibility",
+        "hint": "How visible the health arc is when a token's selected and in the spotlight (Default: 1.0)"
+      },
+      "inactiveAlpha": {
+        "name": "Background Visibility",
+        "hint": "How visible the health arc is when a token's just standing around doing nothing (Default: 0.25)"
+      }
+    }
+  }
+}

@@ -1,23 +1,30 @@
 {
   "name": "health-arc",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "description": "A Foundry VTT module that displays a HP arc and temp HP arc around tokens.",
   "license": "GPL-3.0",
   "author": "stonedtroll",
-  "main": "health-arc.js",
+  "main": "module.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build && npm run postbuild",
-    "postbuild": "copy module.json dist\\module.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:production": "NODE_ENV=production vite build && npm run postbuild",
+    "watch": "vite build --watch",
+    "postbuild": "copy module.json dist\\module.json && xcopy /E /I languages dist\\languages",
+    "lint": "tsc --noEmit",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "prebuild:production": "npm run clean"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "@tsconfig/svelte": "^5.0.4",
+    "rimraf": "^6.0.1",
     "sass-embedded": "^1.89.0",
     "svelte": "^5.30.2",
     "svelte-preprocess": "^6.0.3",
+    "terser": "^5.39.2",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
   }
