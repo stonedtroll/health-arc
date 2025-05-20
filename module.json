@@ -1,0 +1,17 @@
+{
+  "id": "health-arc",
+  "title": "Health Arc",
+  "description": "A Foundry VTT module that displays a HP arc and temp HP arc around tokens.",
+  "version": "1.0.0",
+  "authors": [
+    { "name": "stonedtroll" }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.342"
+  },
+  "esmodules": ["health-arc.js"],
+  "styles": [],
+  "manifest": "https://github.com/stonedtroll/health-arc/releases/latest/download/module.json",
+  "download": "https://github.com/stonedtroll/health-arc/releases/latest/download/module.zip"
+}
