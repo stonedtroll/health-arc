@@ -9,7 +9,7 @@ A Foundry VTT module that visually displays dynamic arcs around tokens to repres
 - **Visibility for Non-Owners**: Players who do not own the token and non-GMs—will see a "fuzzed" HP arc. The level of uncertainty decreases with higher passive perception.
 - **Fade Out Effect**: When tokens are not in combat, not hovered over, or not selected, their health arcs fade out for a cleaner display.
 
-## There be Dragons
+## Here be Dragons
 
 Limited testing...
 
