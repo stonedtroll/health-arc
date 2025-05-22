@@ -1,6 +1,6 @@
 # Health Arc
 
-A Foundry VTT module that visually displays dynamic arcs around tokens to represent current hit points (HP) and temporary hit points.
+A Foundry VTT module that visually displays dynamic arcs around tokens to represent current hit points and temporary hit points.
 
 <br> 
 <p align="center">
@@ -38,7 +38,7 @@ After enabling the module, visit the module settings to customise:
 
 - **Colours**: Set the colours for high HP, low HP, temporary HP, and background arc
 - **Perception Settings**: Adjust how perception affects the uncertainty for non-owned tokens
-- **Performance Settings**: Enable performance monitoring and debug visualizations
+- **Performance Settings**: Enable performance monitoring and debug visualisations
 
 ### Debug Features
 
@@ -46,7 +46,7 @@ When debug mode is enabled, you can access:
 
 - **Performance Overlay**: Shows real-time performance metrics
 - **Performance Monitoring**: Tracks render times and operation counts
-- **Debug Visualizations**: Visual indicators for arc geometry and calculations
+- **Debug Visualisations**: Visual indicators for arc geometry and calculations
 - **Console Commands**: Additional debugging helpers via `game.modules.get('health-arc').debugHelpers
 
 ## Project Structure
