@@ -2,7 +2,11 @@
 
 A Foundry VTT module that visually displays dynamic arcs around tokens to represent current hit points (HP) and temporary hit points.
 
-![Health Arc Demo](images/health-arc-demo.png)
+<br> 
+<p align="center">
+  <img src="images/health-arc-demo.png" alt="Health Arc Demo">
+</p>
+<br> 
 
 ## Features
 
